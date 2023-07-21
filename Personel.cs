@@ -13,7 +13,7 @@ namespace KapsullemeveKontrol
         {
             get
             {
-                return tcKimlikNo.Substring(0,5)+"******";
+                return tcKimlikNo.Substring(0,5)+ "******";
             }
             set
             {
@@ -22,8 +22,8 @@ namespace KapsullemeveKontrol
                 {
                     for(int i = 0; i < value.Length; i++)
                     {
-                        bool sayiMi = Char.IsNumber(value[i]);
-                        if (sayiMi)
+                        bool sayiMi = Char.IsNumber( value[i] );
+                        if ( sayiMi )
                         {
                             tcKimlikNo = value;
                         }

@@ -10,7 +10,7 @@ namespace KapsullemeveKontrol
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hoş Geldiniz!!!")
+            Console.WriteLine("Hoş Geldiniz!!!");
             Personel P1 = new Personel();
             P1.TCKIMLIKNO = "12345678989";
             Console.WriteLine("TC kimlik numaranız:" +P1.TCKIMLIKNO);
